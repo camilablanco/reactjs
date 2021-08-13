@@ -1,0 +1,174 @@
+.logo {
+    margin: 1.4em;
+}
+
+.navbar a {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.navbar a:hover{
+    color: #FFE156;
+}
+
+.navbar a:focus{
+    color: #FFE156;
+}
+
+.navbar a:active{
+    color: #FFE156;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.user-rating {
+    direction: rtl;
+    font-size: 20px;
+    unicode-bidi: bidi-override;
+    padding: 10px 30px;
+    display: inline-block;
+}
+.user-rating input {
+    opacity: 0;
+    position: relative;
+    left: -15px;
+    z-index: 2;
+    cursor: pointer;
+}
+.user-rating span.star:before {
+    color: #777777;
+    content:"ï€†";
+    padding-right: 5px;
+}
+.user-rating span.star {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    position: relative;
+    z-index: 1;
+}
+.user-rating span {
+    margin-left: -15px;
+}
+.user-rating span.star:before {
+    color: #777777;
+    content:"\f006";
+    /*padding-right: 5px;*/
+}
+.user-rating input:hover + span.star:before, .user-rating input:hover + span.star ~ span.star:before, .user-rating input:checked + span.star:before, .user-rating input:checked + span.star ~ span.star:before {
+    color: #ffd100;
+    content:"\f005";
+}
+
+.selected-rating{
+    color: #ffd100;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+
+.team-boxed {
+    color:#313437;
+  }
+  
+  .team-boxed p {
+    color:#7d8285;
+  }
+  
+
+  .team-boxed .movies {
+    padding:50px 0;
+  }
+  
+  .team-boxed .item {
+    text-align:center;
+  }
+  
+  .team-boxed .item .box {
+    height: 45em;
+    text-align:center;
+    padding:30px;
+    background-color:#fff;
+    margin-bottom:30px;
+  }
+  
+  .team-boxed .item .name {
+    font-weight:bold;
+    margin-top:28px;
+    margin-bottom:8px;
+    color:inherit;
+  }
+  
+  .team-boxed .item .title {
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#d0d0d0;
+    letter-spacing:2px;
+    font-size:13px;
+  }
+  
+  .team-boxed .item .description {
+    font-size:15px;
+    margin-top:15px;
+    margin-bottom:20px;
+  }
+  
+  .team-boxed .item img {
+    max-width:130px;
+  }
+
+  .myButton {
+    box-shadow: 0px 1px 0px 0px #fff6af;
+    background:linear-gradient(to bottom, #ffec64 5%, #f0e9b8 100%);
+    background-color:#ffec64;
+    border-radius:6px;
+    border:1px solid #ffaa22;
+    display:inline-block;
+    cursor:pointer;
+    color:#333333;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffee66;
+  
+
+  }
+  .myButton:hover {
+    background:linear-gradient(to bottom, #f0e9b8 5%, #ffec64 100%);
+    background-color:#f0e9b8;
+  }
+  .myButton:active {
+    position:relative;
+    top:1px;
+  }
+  
+  .div-button {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 4em;
+  }
+
+  .wrapper {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+  }
+
+  .form-wrapper {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-top: 2em;
+  }
