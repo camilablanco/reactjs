@@ -1,0 +1,37 @@
+header {
+    background-color: #ffffff;
+}
+
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+/* ------------------------ Nav bar and logo ------------------------ */
+nav {
+    padding-top: 3rem;
+    margin-right: 2rem;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5em;
+
+}
+
+
+.logo img {
+    padding: 1em;
+}
