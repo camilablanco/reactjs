@@ -1,5 +1,5 @@
-import '../style/NavBar.css';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
+import CartWidget from './CartWidget';
 
 const NavBar = () => {
 
@@ -31,6 +31,7 @@ const NavBar = () => {
                 />
                 <Button variant="outline-success">Buscar</Button>
                 </Form>
+                <CartWidget />
             </Navbar.Collapse>
             </Navbar>
         </>
