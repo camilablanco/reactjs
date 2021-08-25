@@ -7,8 +7,8 @@ const App = () => {
     <>
     <header>
     <NavBar />
-    <ItemListContainer text="Hola, Juan Carlos!">
-    </ItemListContainer>
+    {/* <ItemListContainer text="Hola, Juan Carlos!"> */}
+    <ItemListContainer />
     </header>
     </>
   )
